@@ -16,9 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Perplexity",
-  description: "Perplexity_clone",
+  title: "Perplex AI",
+  description: "An intelligent AI assistant built to deliver accurate, real-time answers with a seamless user experience.",
 };
+
 
 export default function RootLayout({ children }) {
   return (
