@@ -1,0 +1,31 @@
+diff --git a/node_modules/react-markdown/lib/complex-types.d.ts b/node_modules/react-markdown/lib/complex-types.d.ts
+new file mode 100644
+index 0000000..93850b1
+--- /dev/null
++++ b/node_modules/react-markdown/lib/complex-types.d.ts
+@@ -0,0 +1,25 @@
++/// <reference types="react" />
++import type {ReactNode, ComponentType, ComponentPropsWithoutRef, JSX} from 'react'
++import type {Position} from 'unist'
++import type {Element} from 'hast'
++export type ReactMarkdownProps = {
++  node: Element
++  children: ReactNode[]
++  /**
++   * Passed when `options.rawSourcePos` is given
++   */
++  sourcePosition?: Position
++  /**
++   * Passed when `options.includeElementIndex` is given
++   */
++  index?: number
++  /**
++   * Passed when `options.includeElementIndex` is given
++   */
++  siblingCount?: number
++}
++export type NormalComponents = {
++  [TagName in keyof JSX.IntrinsicElements]:
++    | keyof JSX.IntrinsicElements
++    | ComponentType<ComponentPropsWithoutRef<TagName> & ReactMarkdownProps>
++}
