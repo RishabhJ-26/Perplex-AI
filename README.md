@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Perplex AI – Your Personalized Research Assistant
 
-## Getting Started
+**Perplex AI** is a powerful AI-powered full-stack assistant that combines Google's **Gemini Pro API** with real-time web results from **Serper.dev** to answer your complex queries with high accuracy, context, and clarity.
 
-First, run the development server:
+> ✅ Ask anything  
+> 📚 Get relevant web sources  
+> 🔐 Authenticated with Clerk  
+> 🌐 Live on Vercel  
+> 🚀 Built using **Next.js App Router**, **Tailwind CSS**, **Gemini API**, and **Serper.dev**
+> 🔗 **Live Demo**: [perplex-ai-one.vercel.app](https://perplex-ai-one.vercel.app/)
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ⚡ Key Features
+
+🔎 **AI-Powered Q&A**  
+Ask any question — Perplex AI returns intelligent, well-structured answers powered by **Gemini Pro**.
+
+🌐 **Real-Time Search with Serper.dev**  
+Enhances responses with fresh web data, like recent articles, news, or links.
+
+🧠 **Source-Aware Answers**  
+Every answer is backed by cited links and summarized context for full transparency.
+
+💡 **Fast, Responsive, Clean UI**  
+Crafted using **Tailwind CSS** with responsive, mobile-friendly layouts.
+
+🧪 **Next.js App Router**  
+Utilizes the latest Next.js features including server actions, API routes, and dynamic rendering.
+
+---
+
+## 🛠 Tech Stack
+
+| Tech           | Purpose                                |
+|----------------|----------------------------------------|
+| **Next.js 14** | Full-stack React framework             |
+| **Tailwind CSS** | Fast styling with modern utility classes |
+| **Gemini Pro API** | AI model for natural language responses |
+| **Serper.dev API** | Web search results and source fetching |
+| **Vercel**     | Deployment (frontend + serverless API) |
+| **TypeScript** | Type safety & DX                      |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```
+git clone https://github.com/RishabhJ-26/Perplex-AI.git
+cd Perplex-AI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install Dependencies
+```
+npm install
+```
+3. Configure Environment Variables
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Create a .env.local file in the root and add:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+GEMINI_API_KEY=your_google_gemini_api_key
+SERPER_API_KEY=your_serper_api_key
+```
 
-## Learn More
+4. Run the Dev Server
+```
+npm run dev
+```
+Visit http://localhost:3000 to start chatting with Perplex AI.
 
-To learn more about Next.js, take a look at the following resources:
+🌐 Deployment
+Deploy to Vercel in seconds:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Why I Built This
+I built Perplex AI to blend real-time web data with conversational AI, learning how to work with the Gemini API, implement external search integrations, and build fast full-stack apps using Next.js App Router. It was a technical challenge and an exciting learning experience!
 
-## Deploy on Vercel
+👨‍💻 Author
+Rishabh Jain
+📧 rishabh.jain.en@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/rishabh-jain-enris) | [GitHub](https://github.com/RishabhJ-26)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📃 License
+Licensed under the MIT License — use, fork, and build on it freely!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🌟 Support
+If you find this project helpful:
+
+⭐ Star it
+🐛 Report bugs via Issues
