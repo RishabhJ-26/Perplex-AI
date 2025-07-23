@@ -7,6 +7,7 @@
 > 🔐 Authenticated with Clerk  
 > 🌐 Live on Vercel  
 > 🚀 Built using **Next.js App Router**, **Tailwind CSS**, **Gemini API**, and **Serper.dev**
+---
 > 🔗 **Live Demo**: [perplex-ai-one.vercel.app](https://perplex-ai-one.vercel.app/)
 ---
 
